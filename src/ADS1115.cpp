@@ -51,8 +51,8 @@ reg_val_t ADS1115::readRawValue() {
 	return readRegister(ADS1115_CONVERSION_REG_ADDR);
 }
 
-reg_val_t ADS1115::readConvertedValue() {
-	reg_val_t rawValue = readRawValue();
+float ADS1115::readConvertedValue() {
+	float rawValue = (float) readRawValue();
 
 	if (currentPGA == 255) {
 		currentPGA = getPga();

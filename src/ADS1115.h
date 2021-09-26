@@ -125,7 +125,7 @@ class ADS1115 {
 
 		// Measurement readings
 		reg_val_t readRawValue();
-		reg_val_t readConvertedValue();
+		float readConvertedValue();
 
 		// Operational status
 		void startSingleConvertion();
