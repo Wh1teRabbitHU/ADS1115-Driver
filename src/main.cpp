@@ -1,5 +1,7 @@
 #include <Arduino.h>
 
+#include "ADS1115.h"
+
 void setup() {
   // put your setup code here, to run once:
 }
