@@ -1,5 +1,5 @@
 #include "Arduino.h"
-#include "ADS1115.h"
+#include "ADS1115-Driver.h"
 
 ADS1115 ads1115 = ADS1115(ADS1115_I2C_ADDR_SDA);
 
