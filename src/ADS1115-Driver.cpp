@@ -1,4 +1,4 @@
-#include <ADS1115.h>
+#include <ADS1115-Driver.h>
 
 static uint8_t currentPGA = 255;
 
